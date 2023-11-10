@@ -4,11 +4,11 @@ import 'package:provider_country_example/controller/countries_controller.dart';
 import 'package:provider_country_example/widgets/home.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+   MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
